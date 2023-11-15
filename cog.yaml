@@ -30,6 +30,8 @@ build:
     - "wandb==0.15.12"
     - "wavedrom==2.0.3.post3"
     - "Pygments==2.16.1"
+    - "datasets==2.14.7"
+    - "Pillow==10.1.0"
   run:
     - curl -o /usr/local/bin/pget -L "https://github.com/replicate/pget/releases/download/v0.0.3/pget" && chmod +x /usr/local/bin/pget
 
